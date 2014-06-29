@@ -1,7 +1,9 @@
 package net.nabilh.spring.data.domain;
 
 /**
- * Author: Nabil Hassan (inside.the.byte@gmail.com)
+ * Enum to represent a person's title. Used by the contact domain entity class.
+ *
+ * Author: Nabil Hassan
  * Date: 29/06/14 00:28
  */
 @SuppressWarnings("unused")

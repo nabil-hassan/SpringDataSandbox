@@ -6,7 +6,10 @@ import net.nabilh.spring.data.domain.*;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * Author: Nabil Hassan (inside.the.byte@gmail.com)
+ * Interface for Contact data access object.
+ * N.B. there is no need to implement this interface, since Spring Data will automatically generate the findBySurname() method.
+ *
+ * Author: Nabil Hassan
  * Date: 29/06/14 00:41
  */
 public interface ContactDAO extends CrudRepository<Contact, Long>{
